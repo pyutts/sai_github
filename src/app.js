@@ -14,7 +14,7 @@ app.use(express.json()); // Parse JSON request bodies
 // // API Routes
 app.use('/api/users', userRoutes);
 // app.use('/api/customers', customerRoutes);
-// app.use('/api/products', productRoutes);
+app.use('/api/products', productRoutes);
 // app.use('/api/transactions', transactionRoutes);
 
 // Health check / Root route
